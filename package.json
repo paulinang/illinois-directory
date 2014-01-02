@@ -1,0 +1,23 @@
+{
+  "name": "illinois-directory",
+  "version": "0.0.0",
+  "description": "Look up NetIDs in the Illinois directory",
+  "main": "index.js",
+  "dependencies": {
+    "concat-stream": "~1.4.0"
+  },
+  "devDependencies": {
+    "async": "~0.2.9"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "illinois",
+    "directory",
+    "netid",
+    "uiuc"
+  ],
+  "author": "Paulina Ng <qwnpng@gmail.com>",
+  "license": "MIT"
+}
