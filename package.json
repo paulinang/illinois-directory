@@ -1,6 +1,6 @@
 {
   "name": "illinois-directory",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Look up NetIDs in the Illinois directory",
   "main": "index.js",
   "dependencies": {
@@ -18,6 +18,10 @@
     "netid",
     "uiuc"
   ],
+  "repository":{
+    "type":"git",    
+    "url": "https://github.com/qwnpng/illinois-directory"
+  },
   "author": "Paulina Ng <qwnpng@gmail.com>",
   "license": "MIT"
 }
