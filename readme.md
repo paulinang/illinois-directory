@@ -2,6 +2,7 @@
 Uses a student's netID to look up their name in the UIUC directory
 
 ## example
+
 ```js
 var ID=require(./index);
 ID('netID',function(err,details){
@@ -13,6 +14,7 @@ ID('netID',function(err,details){
   }
 
 })
+```
 
 ## license
 The MIT License (MIT)
