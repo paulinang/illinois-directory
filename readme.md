@@ -4,7 +4,7 @@ Uses a student's netID to look up their name in the UIUC directory
 ## example
 
 ```js
-var ID=require(./index);
+var ID=require('./index');
 ID('netID',function(err,details){
   if(err != null){
     console.log('ID not found');
