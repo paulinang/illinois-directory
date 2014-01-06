@@ -10,7 +10,7 @@ nameRegex = new RegExp(regStart + '([^<>]+?)' + regEnd, 'gi');
 
 module.exports = function (netID, cb) {
 
-  var url = 'http://illinois.edu/ds/search?search='+netID;
+  var url = 'http://illinois.edu/ds/search?search_type=userid&search='+netID;
 
   http.get(url, function (response) {
 
